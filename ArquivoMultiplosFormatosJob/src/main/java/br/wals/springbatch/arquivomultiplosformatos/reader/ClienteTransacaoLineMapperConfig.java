@@ -16,8 +16,8 @@ import br.wals.springbatch.arquivomultiplosformatos.dominio.Transacao;
 
 @Configuration
 public class ClienteTransacaoLineMapperConfig {
-	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
+	
 	@Bean
 	public PatternMatchingCompositeLineMapper lineMapper() {
 		PatternMatchingCompositeLineMapper lineMapper = new PatternMatchingCompositeLineMapper<>();
