@@ -24,7 +24,7 @@ public class JdbcPagingReaderReaderConfig {
 				.name("jdbcPagingReader")
 				.dataSource(dataSource)
 				.queryProvider(queryProvider)
-				.pageSize(1)
+				.pageSize(2)
 				.rowMapper(new BeanPropertyRowMapper<Cliente>(Cliente.class))
 				.build();
 	}
